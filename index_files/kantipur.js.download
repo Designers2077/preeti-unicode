@@ -1,4 +1,4 @@
-﻿// if we are executing as a Notepad++ NppScripting plugin
+// if we are executing as a Notepad++ NppScripting plugin
 if ( typeof(Editor) != "undefined" ){
 	var kantipur = Editor.addMenu("Kantipur");
 	var kantipurMenu = {
@@ -351,6 +351,11 @@ function kantipurToUnicode( kantipur )
 {from:";Íng", to: ";°ng"},
 {from:"tYofÍ", to: "tYof°"},
 {from:"em", to: "´"},
+{from:"?{", to: "¥"},
+{from:" -/f;;_ M", to: "÷/f;;"},
+{from:"nÍf", to: "n+sf"},
+{from:"a}Í", to: "a}+s"},
+{from:"zÍ/", to: "z°//"},
 
 
 		// punctuation marks
