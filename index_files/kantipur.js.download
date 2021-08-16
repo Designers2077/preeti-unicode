@@ -356,6 +356,7 @@ function kantipurToUnicode( kantipur )
 {from:"nÍf", to: "n+sf"},
 {from:"a}Í", to: "a}+s"},
 {from:"zÍ/", to: "z°//"},
+{from:"lnÍ", to: "ln+s"},
 
 
 		// punctuation marks
