@@ -136,53 +136,6 @@ j-scripts file-->
 
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-preeti to unicode auto
-
-
-
-<title>Preeti to Unicode Converter | preeti to unicode | convert kantipur to unicode | English to Nepali</title>
-<META NAME="description" CONTENT="preeti to unicode converter, Convert your preeti or kantipur font to unicode easily">
-
-<META NAME="keywords" CONTENT="Preeti to Unicode, Nepali Unicode preeti, kantipur to unicode, preeti Unicode,  nepali unicode">
-
-<META NAME="Abstract" CONTENT="Preeti to Unicode">
-<META NAME="Owner" CONTENT="The Designers7">
-<META NAME="Copyright" CONTENT="The Designers7">
-<META NAME="Author" CONTENT="The Designers7">
-<META NAME="Classification" CONTENT="ONLINE RESOURCES">
-
-<META NAME="Rating" CONTENT="General">
-<META NAME="Robots" CONTENT="index,follow">
-<META NAME="Revisit-After" CONTENT="7 DAYS">
-<link rel="shortcut icon" href="images/favicon.ico" />
-
-
-
-
-<link rel="stylesheet" type="text/css" href="./index_files/style.css">
-<!--------------------------------banner script starts------------------------------->
-
-
-<link rel="stylesheet" href="./index_files/style_banner.css">
-<script type="text/javascript" src="./index_files/jquery.min1.5.2.js.download"></script>
-<script type="text/javascript" src="./index_files/jquery.aw-showcase.js.download"></script>
-<script type="text/javascript" src="./index_files/jquery.validate.min.js.download"></script>
-
-
-
-<!--------------------------------banner script ends------------------------------>
-<script type="text/javascript" async="" src="./index_files/embed.js.download"></script><script async="" type="text/javascript" src="./index_files/count.js.download"></script><link rel="prefetch" as="style" href="https://c.disquscdn.com/next/embed/styles/lounge.567531e1abfac5c88f2ef94b952d12ba.css"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/common.bundle.e51fe378e0cd63a2764bfb6c7ca542a8.js"><link rel="prefetch" as="script" href="https://c.disquscdn.com/next/embed/lounge.bundle.152a1430e3267673ea556dc28bb34a79.js"><link rel="prefetch" as="script" href="https://disqus.com/next/config.js"></head>
-
-
-
-
-<body>
-
 <!-- division for the header includes signin navigation search-->
 
 <div id="wrap">
@@ -638,9 +591,11 @@ modified_substring = modified_substring.replace( /</g , "?" )   ;
 
 </script>
  <!-- ----------------------------------------------------------------------------------
+
       body of the HTML starts here. one text box is provided each for input and output. 
+
 -->
-<form name="form1">Write or Paste preeti text: <br><br><textarea style="color: green;font-family: preeti; font-size:20px; width: 100%" id="legacy_text" rows="7" cols="60" name="TextToConvert" onkeyup="javascript:convert_to_unicode();"></textarea>
+<form name="form1"> <br><br><textarea style="color: green;font-family: preeti; font-size:20px; width: 100%" id="legacy_text" rows="7" cols="60" name="TextToConvert" onkeyup="javascript:convert_to_unicode();"></textarea>
 
  
 <div>
@@ -700,8 +655,12 @@ onclick="convert_to_unicode();" value=" युनिकोड" name="converter" 
   
   
   <script language="javascript"> function selectAll(txtbox)  {  if(txtbox.createTextRange)  /*IE*/ { t = txtbox.createTextRange(); if(t.select) t.select(); if(t.execCommand) t.execCommand('copy'); } if(txtbox.setSelectionRange) /*Mozilla*/ { txtbox.setSelectionRange(0,txtbox.value.length); } else if(txtbox.createTextRange) /*Opera 8*/ { var r = txtbox.createTextRange(); r.select(); } if(txtbox.focus) txtbox.focus(); }  var liveConverstion; function clearInput() { if(Form1.ascii.value.length < 30 || confirm("Are you sure you want to clear what you typed?")) { Form1.ascii.value = ""; Form1.unicode.value = ""; Form1.ascii.focus(); } }  function convertLive(flag) {  if(flag) { if(Form1.ascii.value.length > 1500) { alert("The text is too large for live conversion. Please press the 'Convert' button."); Form1.convertItLive[1].checked = true; return convertLive(false); } Form1.convertNow.disabled = true; translate(Form1.ascii, Form1.unicode, eval(Form1.htmlEncode.value), Form1.smartConverter_.checked); liveConversion = true;  } else { Form1.convertNow.disabled = false; liveConversion = false; } }  function convert() { if(liveConversion == true && Form1.ascii.value.length <= 1500) { translate(Form1.ascii, Form1.unicode, eval(Form1.htmlEncode.value), Form1.smartConverter_.checked); } else if(liveConversion == true && Form1.ascii.value.length > 1500) convertLive(true); }  smartConverter(true); translate(Form1.ascii, Form1.unicode, eval(Form1.htmlEncode.value), Form1.smartConverter_.checked);  Form1.ascii.focus(); convertLive(true); </script>
-</div></p>
-  </div>
+</div>
+
+	    
+	    
+	    
+	    
 </div>
 
 </body>
