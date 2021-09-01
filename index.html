@@ -52,10 +52,39 @@ a:hover, a:active {
 </head>
 <body>
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>---</h2>
+
 <div class="row">
   <div class="column" style="background-color:#FFFFFF;">
-    <h2>Text converter tools</h2>
-    <p> <script language="JavaScript" src="./index_files/common.js.download"></script>
+    <h2>Column 1</h2>
+    <p><script language="JavaScript" src="./index_files/common.js.download"></script>
 <script language="JavaScript" src="file:///C:/Users/Brahmastra/Desktop/include/npconverter/npconvwerter_files/uc"></script>
  <script language="JavaScript" src="./index_files/convert.js.download"></script>
 <script type="text/javascript" src="./index_files/jquery.js.download"></script>
@@ -126,10 +155,8 @@ jQuery(function($){
 <p>
   <textarea name="outputField" cols="70" rows="5" id="outputField"></textarea>
 </p>
-</div>
-  <h2>Unicode to preeti auto</h2>
-
-
+								<div class="clear"></div></div></div></div><!--!doctype--></p>
+  </div>
   <div class="column" style="background-color:#FFFFFF;">
     <h2>Column 2</h2>
     <p><div><embed src="https://designers2077.github.io/PreetiToUnicodeAuto/" style="height: 600px; width: 500px;"></embed></div></p>
@@ -138,3 +165,4 @@ jQuery(function($){
 
 </body>
 </html>
+
